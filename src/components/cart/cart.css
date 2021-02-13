@@ -1,0 +1,15 @@
+.outerDiv {
+    padding: 20px 10px;
+}
+
+.outerDiv button {
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.cartItems {
+    padding-top: 20px;
+}

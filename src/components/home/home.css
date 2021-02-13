@@ -1,0 +1,228 @@
+.bannerRoot {
+  /* max-width: 350px; */
+  padding: 0px 15px 20px 15px;
+  background-color: white;
+}
+
+.heading {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 15px 15px;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.heading span {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+.heading button {
+  padding: 5px 15px;
+  border: none;
+  background-color: black;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: 15%;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.categoryList {
+  margin-top: 70px;
+}
+
+.categoryList ul {
+  overflow-x: auto;
+  white-space: nowrap;
+  list-style-type: none;
+  background-color: white;
+}
+
+.categoryList li {
+  flex-direction: column;
+  background-size: cover;
+  position: relative;
+  width: 100px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  height: 50px;
+  text-align: center;
+}
+
+.categoryList button {
+  padding: 14px 14px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: rgb(112, 101, 101);
+  border: 1px solid rgb(182, 174, 174);
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+/* .categoryList img {
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+} */
+
+.categoryList span {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.outerListDiv {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(228, 224, 224);
+  margin-top: 10px;
+}
+
+.listImageDiv {
+  width: 25%;
+  margin: 10px 20px 15px 10px;
+}
+
+.listImageDiv img {
+  width: 100%;
+}
+
+.listNameDiv {
+  width: 55%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.listPriceDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.listPriceDiv div {
+  display: flex;
+  flex-direction: row;
+}
+
+.price_list {
+  margin-top: 4px;
+  margin-left: 10px;
+  color: light rgb(148, 143, 143);
+  font-size: 12px;
+  text-decoration-line: line-through;
+  font-weight: 200;
+}
+
+.greenButton {
+  color: white;
+  background-color: #1fbf22;
+  padding: 8px 15px;
+  border: none;
+  border-style: none;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.greyButton {
+  color: white;
+  background-color: rgb(149, 149, 149);
+  padding: 8px 15px;
+  order: none;
+  border-style: none;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.list_name {
+  color: rgb(29, 29, 31);
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.list_weight {
+  color: light rgb(122, 118, 118);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+
+.list_final_price {
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 11px;
+}
+
+.ratingDiv span {
+  width: 10%;
+  border: none;
+  border-style: none;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 400;
+  color: light rgb(70, 68, 184);
+}
+
+.featureButton {
+  margin-top: 10px;
+}
+
+.featureButton button {
+  color: light grey;
+  background-color: white;
+  border: none;
+}
+
+.featureButton span {
+  color: gray;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.featureButton button:first-child {
+  margin-left: 55%;
+}
+
+.featureButton button:last-child {
+  float: right;
+  margin-right: 5%;
+}
+
+.changeButtonData {
+  position: absolute;
+  width: 60%;
+  height: 300px;
+  left: 20px;
+  transform: translateY(-90%);
+  overflow: scroll;
+}
+
+.changeButtonData ul {
+  list-style-type: none;
+  border: 1px solid rgb(195, 187, 187);
+}
+
+.changeButtonData li {
+  padding: 15px 20px;
+  color: steelblue;
+  background-color: white;
+  border: 1px solid rgb(246, 243, 243);
+}
+
+.changeButtonData li:hover {
+  color: rgb(224, 214, 214);
+}
